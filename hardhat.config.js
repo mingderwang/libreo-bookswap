@@ -20,8 +20,8 @@ module.exports = {
   solidity: '0.8.4',
   networks: {
     hardhat: {
-      // chainId: 1337, //matic
-      chainId: 0x40b9020d, //skale
+      chainId: 1337, //matic
+      //chainId: 0x40b9020d, //skale
     },
     alfajores: {
       url: 'https://alfajores-forno.celo-testnet.org',
